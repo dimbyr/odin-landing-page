@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
     justify-content: flex-start;
     padding: 0;
 }
@@ -11,19 +11,40 @@ header, footer {
     color: #F9FAF8;
     margin: 0;
     padding: 20px;
-    align-self: stretch;
+    width: 100%;
 }
 
 .headerlinks {
     color: #F9FAF8;
 }
+
+.container {
+    flex: 1;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .section-1 {
     background-color: #1f2937;
     color: #F9FAF8;
-    align-self: stretch;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
+.section-1 .imgbox {
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    margin: 10px;
+    color: #1f2937;
+ } 
+
+footer {
+    /* flex: 1; */
+    bottom: 0;
+}
 
