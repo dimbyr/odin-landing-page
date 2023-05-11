@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start;
+    padding: 0;
+}
+header, footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 20px;
+    align-self: stretch;
+}
+
+.headerlinks {
+    color: #F9FAF8;
+}
+.section-1 {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
